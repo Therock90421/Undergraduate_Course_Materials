@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Thu Mar 21 15:25:15 2019
+# Process ID: 2992
+# Current directory: E:/Vivado/homework/project_11_reg_file
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12404 E:\Vivado\homework\project_11_reg_file\project_11_reg_file.xpr
+# Log file: E:/Vivado/homework/project_11_reg_file/vivado.log
+# Journal file: E:/Vivado/homework/project_11_reg_file\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/Vivado/homework/project_11_reg_file/project_11_reg_file.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado/Vivado/2015.4/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 756.953 ; gain = 118.402
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Mar 21 16:45:08 2019...

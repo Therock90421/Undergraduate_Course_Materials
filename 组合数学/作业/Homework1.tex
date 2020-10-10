@@ -1,0 +1,51 @@
+\documentclass{article}
+\usepackage{CJK}
+\begin{CJK*}{GBK}{song}
+\author{李昊宸}
+\title{Homework1}
+
+\begin{document}
+\begin{CJK*}{GBK}{song}
+\maketitle \section{}
+$$(1+x)^{\frac {1}{2}}=1+\frac{1}{2}x-\frac{1}{2}\times\frac{1}{2}x+\frac{1}{2}\times\frac{1}{2}\times\frac{3}{2}x-......
+=1\times x^0 +{\frac{1}{2}\choose 1}x^1+{\frac{1}{2}\choose 2}x^2+.......= \sum_{i=0}^\infty {\frac{1}{2}\choose i}x^i $$
+\section{}
+\subsection{} $$\sum_{i=1}^{n}\frac{1}{i+1}{n\choose i}= \frac{1}{i+1}\frac{n!}{i!(n-i)!}=\frac{n!}{(i+1)!(n-i)!}
+=\sum_{i=1}^{n}\frac{1}{n+1}{n+1\choose i+1}=\frac{2^{n+2}-n-2}{n+1}$$
+\subsection{} 1，q，$q^2$是三次单位根,$1+q+q^2=0$
+$$2^n=\sum_{k\ge 0}^\infty {{n\choose k}}\quad
+(1+q)^n=\sum_{k\ge 0}^\infty {{n\choose k}q^k} \quad
+(1+q^2)^n=\sum_{k\ge 0}^\infty {{n\choose k}q^2k}
+$$ 记$a=\sum_{k\ge 0}^\infty {{n\choose 3k}} \quad b=\sum_{k\ge 0}^\infty {{n\choose 3k+1}} \quad c=\sum_{k\ge 0}^\infty {{n\choose 3k+2}}$ 于是我们得到$$3b=2^n+(1+q)^n\times q^2+(1+q^2)^n\times q\quad
+3a=2^n+(1+q)^n+(1+q^2)^n\quad
+3c=2^n+(1+q)^n\times q+(1+q^2)^n\times q^2$$
+解方程，得$$a=\frac{1}{3}(2^n+2cos(\frac{n\pi}{3}))\quad b=\frac{1}{3}(2^n+2cos(\frac{(n-2)\pi}{3}))\quad c=\frac{1}{3}(2^n+2cos(\frac{(n+2)\pi}{3}))\quad$$
+\subsection{} $$\sum_{k\ge 0}^{n}k^2 {n\choose k}=\sum_{k\ge 0}^{n}k(k-1){n\choose k}+\sum_{k\ge 0}^{n}k{n\choose k}=\sum_{k\ge 0}^{n}n(n-1){n-2\choose k}+\sum_{k\ge 0}^{n}n{n-1\choose k}$$
+$$=n(n-1)2^{n-2}+n2^{n-1}=n(n+1)2^{n-2}$$
+\subsection{} $$\sum_{i\ge 0}^{n}i^3=\sum_{i\ge 0}^{n}[i(i-1)(i-2)+3i(i-1)+i]=\sum_{i\ge 0}^{n}[6{i\choose 3}+6{i\choose 2}+{i\choose 1}]=\sum_{i\ge 0}^{n}[6{i+1\choose 3}+{i\choose 1}]=[\frac{n(n+1)}{2}]^2$$
+\section{} 数学归纳法：\\
+ n=1时 $$x^1=x^{\underline{1}}$$\\
+ 假设n=k 时成立\\
+ n=k+1时，有 $$x^{k+1}-x(x-1)(x-2)...(x-k)=ax^k+bx^{k-1}...+zx$$
+ 由归纳假设，等式右边可以表示为\{$x^{\underline{1}},x^{\underline{2}},...,x^{\underline{k}}$\}的线性组合。 Q.E.D.
+ \section{} n为奇数时，$${n\choose 0}<{n\choose 1}<...<{n\choose \frac{n}{2}-1}<{n\choose \frac{n}{2}}>{n\choose \frac{n}{2}+1}>...>{n\choose n}$$\\
+ n为偶数时，$${n\choose 0}<{n\choose 1}<...<{n\choose \frac{n-1}{2}}={n\choose \frac{n+1}{2}}>...>{n\choose n}$$
+\section{} $$(\frac{n}{k})^k=\frac{n}{k}\frac{n}{k}...\frac{n}{k}\quad {n\choose k}=\frac{n}{k}\frac{n-1}{k-1}...\frac{n-k+1}{1}\quad
+(\frac{en}{k})^k=\frac{en}{k}\frac{en}{k}...\frac{en}{k}$$
+因$\frac{n-i}{k-i}\ge\frac{n}{k},0\le i\le k$,所以有$(\frac{n}{k})^k\le {n\choose k}$成立\\
+若有$\frac{n-i}{k-i}\le \frac{en}{k}$,i需要满足$n-i\le \frac{en}{k}(k-i)$,化简得$i\le\frac{ek-k}{en-k}n \le n$成立\\
+综上，原式成立
+\section{} 不妨认为圆桌存在位置编号1至12号，即有起始顺序\\
+排男士，有$4^{\underline{4}}$种；排女士，有$8^{\underline{8}}$种\\
+故总计有$4^{\underline{4}}\times 8^{\underline{8}}$种
+\section{} 圆桌依旧有顺序。将AB看作一个个体，由逆事件可得到种数为$15^{\underline{15}}-2\times14^{\underline{14}}$
+ 若只不坐在右边，则为$15^{\underline{15}}-14^{\underline{14}}$
+\section{} 先挑10位男士，后挑10位女士，然后配对，故为$${15\choose 10}{20\choose 10}10^{\underline{10}}$$
+\section{} 易知有$${52\choose 13}{39\choose 13}{26\choose 13}$$若不关心是谁拿到了哪份牌，则为$$\frac{{52\choose 13}{39\choose 13}{26\choose 13}}{4^{\underline{4}}}$$
+\section{} 总计有六种情况：3a4b3c,3a3b4c,3a2b5c,2a3b5c,2a4b4c,1a4b5c,故总计为\\
+$$\frac{{5\choose 3}10^{\underline{10}}}{3^{\underline{3}}4^{\underline{4}}3^{\underline{3}}}+\frac{{5\choose 4}{4\choose 3}10^{\underline{10}}}{3^{\underline{3}}3^{\underline{3}}4^{\underline{4}}}+\frac{{4\choose 2}10^{\underline{10}}}{3^{\underline{3}}2^{\underline{2}}5^{\underline{5}}}+\frac{{3\choose 2}{4\choose 3}10^{\underline{10}}}{2^{\underline{2}}3^{\underline{3}}5^{\underline{5}}}+\frac{{3\choose 2}{5\choose 4}10^{\underline{10}}}{2^{\underline{2}}4^{\underline{4}}4^{\underline{4}}}+\frac{{3\choose 1}10^{\underline{10}}}{4^{\underline{4}}5^{\underline{5}}}$$
+\section{} 从自然数中挑选k个，从ab中挑选n-k个，则有\\
+$$\sum_{k\ge 0}^{n}{n+1\choose k}(n-k+1)=\sum_{k\ge 0}^{n}(n+1){k+1\choose k}-\sum_{k\ge 0}^{n}(n+1){n\choose k-1}\\
+=(n+1)\times 2^n$$
+\end{CJK*} \end{CJK*}
+\end{document}

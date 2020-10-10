@@ -1,0 +1,39 @@
+\documentclass{article}
+\usepackage{CJK}
+\begin{CJK*}{GBK}{song}
+\author{李昊宸}
+\title{选做题2}
+
+\begin{document}
+\begin{CJK*}{GBK}{song}
+\maketitle
+
+a.当n为奇数时，取最中间一层，有${n \choose \lceil \frac{n}{2} \rceil}$个元素两两不属于对方\\
+  所以$|F|\ge {n \choose \lceil \frac{n}{2} \rceil}$\\
+  设A为反链中的元素，则从空集走到全集有$|A|!(n-|A|)!$种\\
+  所以$\sum_{A\in F}|A|!(n-|A|)! \le n!$\\
+  即$\sum_{A\in F}\frac{1}{{n\choose |A|}} \le 1$\\
+  而${{n\choose |A|}}\le {{n\choose \lceil \frac{n}{2} \rceil}}$\\
+  所以$\sum_{A\in F}{{n\choose \lceil \frac{n}{2} \rceil}}$\\
+  即$\sum_{A\in F}\le {{n\choose \lceil \frac{n}{2} \rceil}}$\\
+  所以最多${{n\choose \lceil \frac{n}{2} \rceil}}$\\
+  当n为偶数时，注意到取$\frac{n}{2}$个元素时，每个集合都存在一个互补集合也在这个集族中，故该取法取出的总数减少一半\\
+  于是我们考虑取出$\frac{n}{2}+1$个元素\\
+  易知该取法是当前最大的取法\\
+  综上，总数为${n \choose \lceil \frac{n+1}{2} \rceil}$\\
+b.任意$|A\cap B|\ge k$,则我们先选定k个元素作为这个集族中集合的公共元素\\
+ 先考虑两种取法：1.取出所有包含固定k个元素的集合，即为$2^{n-k}$个\\
+ 2.取出含有$\lceil \frac{n}{2}+\frac{k}{2} \rceil$个元素的所有集合，有$\sum_{k=\lceil \frac{n}{2}+\frac{k}{2}\rceil} {n\choose k}$个\\
+ 此时任意两个集合的交有大于等于k个元素\\
+ 当k比较小的时候，方法1取出的元素更多\\
+ 当k比较大的时候，方法2取出的元素更多\\
+ （老师，关于这里的证明我还在考虑中，不知道这个答案对不对。）
+c.关于对称差运算\\
+  若每两个集合之间的对称差均大于等于k，则最多应有\\
+  $\lfloor \frac {n}  {\lceil \frac{k}{2} \rceil} \rfloor$\\
+  原理即将N个元素划分为每组K（偶）或K+1（奇）个的组别，再将每组等分.\\
+  若每两个集合之间的对称差均小于等于k,则最多应有\\
+  ${n \choose 1}+{n \choose 2}+{n \choose 3}...+{n \choose \lfloor \frac{k}{2}\rfloor}$
+
+\end{CJK*} \end{CJK*}
+\end{document}

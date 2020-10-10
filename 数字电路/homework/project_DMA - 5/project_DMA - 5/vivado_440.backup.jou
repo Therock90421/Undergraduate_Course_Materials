@@ -1,0 +1,38 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Dec 11 14:48:29 2018
+# Process ID: 440
+# Current directory: C:/Users/Administrator/vivado projects/project_DMA - 3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent800 C:\Users\Administrator\vivado projects\project_DMA - 3\project_DMA.xpr
+# Log file: C:/Users/Administrator/vivado projects/project_DMA - 3/vivado.log
+# Journal file: C:/Users/Administrator/vivado projects/project_DMA - 3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Administrator/vivado projects/project_DMA - 3/project_DMA.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source test.tcl
+current_wave_config {Untitled 1}
+add_wave {{/test/ourDMA/direction}} {{/test/ourDMA/clk}} {{/test/ourDMA/rst_n}} {{/test/ourDMA/mem_to_dma_valid}} {{/test/ourDMA/mem_to_dma_enable}} {{/test/ourDMA/cpu_to_dma_valid}} {{/test/ourDMA/cpu_to_dma_enable}} {{/test/ourDMA/mem_data_out}} {{/test/ourDMA/cpu_data_out}} {{/test/ourDMA/mem_data_in}} {{/test/ourDMA/cpu_data_in}} {{/test/ourDMA/BUF1}} {{/test/ourDMA/BUF2}} {{/test/ourDMA/count_buf1}} {{/test/ourDMA/count_buf2}} {{/test/ourDMA/dma_to_mem_valid}} {{/test/ourDMA/dma_to_mem_enable}} {{/test/ourDMA/dma_to_cpu_valid}} {{/test/ourDMA/dma_to_cpu_enable}} {{/test/ourDMA/state}} {{/test/ourDMA/max_data_transfer_buf1}} {{/test/ourDMA/max_data_transfer_buf2}} {{/test/ourDMA/Number_of_Data_Transfer_MEM}} {{/test/ourDMA/Number_of_Data_Transfer_CPU}} {{/test/ourDMA/MEM_TO_CPU}} {{/test/ourDMA/CPU_TO_MEM}} {{/test/ourDMA/INPUT_BUF1_AND_OUTPUT_BUF2}} {{/test/ourDMA/INPUT_BUF2_AND_OUTPUT_BUF1}} 
+restart
+run 1 us
+close_sim
+launch_simulation
+source test.tcl
+current_wave_config {Untitled 2}
+add_wave {{/test/ourDMA/direction}} {{/test/ourDMA/clk}} {{/test/ourDMA/rst_n}} {{/test/ourDMA/mem_to_dma_valid}} {{/test/ourDMA/mem_to_dma_enable}} {{/test/ourDMA/cpu_to_dma_valid}} {{/test/ourDMA/cpu_to_dma_enable}} {{/test/ourDMA/mem_data_out}} {{/test/ourDMA/cpu_data_out}} {{/test/ourDMA/mem_data_in}} {{/test/ourDMA/cpu_data_in}} {{/test/ourDMA/BUF1}} {{/test/ourDMA/BUF2}} {{/test/ourDMA/count_buf1}} {{/test/ourDMA/count_buf2}} {{/test/ourDMA/dma_to_mem_valid}} {{/test/ourDMA/dma_to_mem_enable}} {{/test/ourDMA/dma_to_cpu_valid}} {{/test/ourDMA/dma_to_cpu_enable}} {{/test/ourDMA/state}} {{/test/ourDMA/max_data_transfer_buf1}} {{/test/ourDMA/max_data_transfer_buf2}} {{/test/ourDMA/Number_of_Data_Transfer_MEM}} {{/test/ourDMA/Number_of_Data_Transfer_CPU}} {{/test/ourDMA/MEM_TO_CPU}} {{/test/ourDMA/CPU_TO_MEM}} {{/test/ourDMA/INPUT_BUF1_AND_OUTPUT_BUF2}} {{/test/ourDMA/INPUT_BUF2_AND_OUTPUT_BUF1}} 
+restart
+run 1 us
+close_sim
+launch_simulation
+source test.tcl
+current_wave_config {Untitled 3}
+add_wave {{/test/ourDMA/direction}} {{/test/ourDMA/clk}} {{/test/ourDMA/rst_n}} {{/test/ourDMA/mem_to_dma_valid}} {{/test/ourDMA/mem_to_dma_enable}} {{/test/ourDMA/cpu_to_dma_valid}} {{/test/ourDMA/cpu_to_dma_enable}} {{/test/ourDMA/mem_data_out}} {{/test/ourDMA/cpu_data_out}} {{/test/ourDMA/mem_data_in}} {{/test/ourDMA/cpu_data_in}} {{/test/ourDMA/BUF1}} {{/test/ourDMA/BUF2}} {{/test/ourDMA/count_buf1}} {{/test/ourDMA/count_buf2}} {{/test/ourDMA/dma_to_mem_valid}} {{/test/ourDMA/dma_to_mem_enable}} {{/test/ourDMA/dma_to_cpu_valid}} {{/test/ourDMA/dma_to_cpu_enable}} {{/test/ourDMA/state}} {{/test/ourDMA/max_data_transfer_buf1}} {{/test/ourDMA/max_data_transfer_buf2}} {{/test/ourDMA/Number_of_Data_Transfer_MEM}} {{/test/ourDMA/Number_of_Data_Transfer_CPU}} {{/test/ourDMA/MEM_TO_CPU}} {{/test/ourDMA/CPU_TO_MEM}} {{/test/ourDMA/INPUT_BUF1_AND_OUTPUT_BUF2}} {{/test/ourDMA/INPUT_BUF2_AND_OUTPUT_BUF1}} 
+restart
+run all
+restart
+run 1 us
+run 1 us
+close_sim

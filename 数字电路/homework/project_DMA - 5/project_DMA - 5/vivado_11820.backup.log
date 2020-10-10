@@ -1,0 +1,266 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Dec 20 10:36:08 2018
+# Process ID: 11820
+# Current directory: C:/Users/Administrator/vivado projects/project_DMA - 4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6308 C:\Users\Administrator\vivado projects\project_DMA - 4\project_DMA.xpr
+# Log file: C:/Users/Administrator/vivado projects/project_DMA - 4/vivado.log
+# Journal file: C:/Users/Administrator/vivado projects/project_DMA - 4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Administrator/vivado projects/project_DMA - 4/project_DMA.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:21 . Memory (MB): peak = 789.844 ; gain = 98.004
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Administrator/vivado projects/project_DMA - 4/project_DMA.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Administrator/vivado projects/project_DMA - 4/project_DMA.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/vivado projects/project_DMA - 4/project_DMA.srcs/sources_1/new/DMA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DMA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/vivado projects/project_DMA - 4/project_DMA.srcs/sim_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Administrator/vivado projects/project_DMA - 4/project_DMA.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 2c9b9dae0503448eb9fb445464d24537 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DMA
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Administrator/vivado projects/project_DMA - 4/project_DMA.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+When it's OK to input data from memory to dma(buf1), the data is 2
+Now the content of BUF1 is 0000000000000000, the content of BUF2 is 0000000000000000, 
+and BUF1 to input, BUF2 to output, direction from memory to cpu
+
+When it's OK to input data from memory to dma(buf1), the data is 2
+Now the content of BUF1 is 0000000000000002, the content of BUF2 is 0000000000000000, 
+and BUF1 to input, BUF2 to output, direction from memory to cpu
+
+When it's OK to input data from memory to dma(buf1), the data is d
+Now the content of BUF1 is 0000000000000022, the content of BUF2 is 0000000000000000, 
+and BUF1 to input, BUF2 to output, direction from memory to cpu
+
+When it's OK to input data from memory to dma(buf1), the data is b
+Now the content of BUF1 is 000000000000022d, the content of BUF2 is 0000000000000000, 
+and BUF1 to input, BUF2 to output, direction from memory to cpu
+
+When it's OK to input data from memory to dma(buf1), the data is 5
+Now the content of BUF1 is 00000000000022db, the content of BUF2 is 0000000000000000, 
+and BUF1 to input, BUF2 to output, direction from memory to cpu
+
+When it's OK to input data from memory to dma(buf1), the data is 6
+Now the content of BUF1 is 0000000000022db5, the content of BUF2 is 0000000000000000, 
+and BUF1 to input, BUF2 to output, direction from memory to cpu
+
+When it's OK to input data from memory to dma(buf1), the data is a
+Now the content of BUF1 is 000000000022db56, the content of BUF2 is 0000000000000000, 
+and BUF1 to input, BUF2 to output, direction from memory to cpu
+
+When it's OK to input data from memory to dma(buf1), the data is 5
+Now the content of BUF1 is 00000000022db56a, the content of BUF2 is 0000000000000000, 
+and BUF1 to input, BUF2 to output, direction from memory to cpu
+
+When it's OK to input data from memory to dma(buf1), the data is b
+Now the content of BUF1 is 0000000022db56a5, the content of BUF2 is 0000000000000000, 
+and BUF1 to input, BUF2 to output, direction from memory to cpu
+
+When it's OK to input data from memory to dma(buf1), the data is 4
+Now the content of BUF1 is 000000022db56a5b, the content of BUF2 is 0000000000000000, 
+and BUF1 to input, BUF2 to output, direction from memory to cpu
+
+When it's OK to input data from memory to dma(buf1), the data is 6
+Now the content of BUF1 is 00000022db56a5b4, the content of BUF2 is 0000000000000000, 
+and BUF1 to input, BUF2 to output, direction from memory to cpu
+
+When it's OK to input data from memory to dma(buf1), the data is 1
+Now the content of BUF1 is 0000022db56a5b46, the content of BUF2 is 0000000000000000, 
+and BUF1 to input, BUF2 to output, direction from memory to cpu
+
+When it's OK to input data from memory to dma(buf1), the data is 8
+Now the content of BUF1 is 000022db56a5b461, the content of BUF2 is 0000000000000000, 
+and BUF1 to input, BUF2 to output, direction from memory to cpu
+
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:13 . Memory (MB): peak = 836.504 ; gain = 16.438
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/test/ourDMA/direction}} {{/test/ourDMA/clk}} {{/test/ourDMA/rst_n}} {{/test/ourDMA/mem_to_dma_valid}} {{/test/ourDMA/mem_to_dma_enable}} {{/test/ourDMA/cpu_to_dma_valid}} {{/test/ourDMA/cpu_to_dma_enable}} {{/test/ourDMA/mem_data_out}} {{/test/ourDMA/cpu_data_out}} {{/test/ourDMA/mem_data_in}} {{/test/ourDMA/cpu_data_in}} {{/test/ourDMA/BUF1}} {{/test/ourDMA/BUF2}} {{/test/ourDMA/count_buf1}} {{/test/ourDMA/count_buf2}} {{/test/ourDMA/dma_to_mem_valid}} {{/test/ourDMA/dma_to_mem_enable}} {{/test/ourDMA/dma_to_cpu_valid}} {{/test/ourDMA/dma_to_cpu_enable}} {{/test/ourDMA/state}} {{/test/ourDMA/max_data_transfer_buf1}} {{/test/ourDMA/max_data_transfer_buf2}} {{/test/ourDMA/Number_of_Data_Transfer_MEM}} {{/test/ourDMA/Number_of_Data_Transfer_CPU}} {{/test/ourDMA/MEM_TO_CPU}} {{/test/ourDMA/CPU_TO_MEM}} {{/test/ourDMA/INPUT_BUF1_AND_OUTPUT_BUF2}} {{/test/ourDMA/INPUT_BUF2_AND_OUTPUT_BUF1}} 
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 1 us
+When it's OK to input data from memory to dma(buf1), the data is 2
+Now the content of BUF1 is 0000000000000000, the content of BUF2 is 0000000000000000, 
+and BUF1 to input, BUF2 to output, direction from memory to cpu
+
+When it's OK to input data from memory to dma(buf1), the data is 2
+Now the content of BUF1 is 0000000000000002, the content of BUF2 is 0000000000000000, 
+and BUF1 to input, BUF2 to output, direction from memory to cpu
+
+When it's OK to input data from memory to dma(buf1), the data is d
+Now the content of BUF1 is 0000000000000022, the content of BUF2 is 0000000000000000, 
+and BUF1 to input, BUF2 to output, direction from memory to cpu
+
+When it's OK to input data from memory to dma(buf1), the data is b
+Now the content of BUF1 is 000000000000022d, the content of BUF2 is 0000000000000000, 
+and BUF1 to input, BUF2 to output, direction from memory to cpu
+
+When it's OK to input data from memory to dma(buf1), the data is 5
+Now the content of BUF1 is 00000000000022db, the content of BUF2 is 0000000000000000, 
+and BUF1 to input, BUF2 to output, direction from memory to cpu
+
+When it's OK to input data from memory to dma(buf1), the data is 6
+Now the content of BUF1 is 0000000000022db5, the content of BUF2 is 0000000000000000, 
+and BUF1 to input, BUF2 to output, direction from memory to cpu
+
+When it's OK to input data from memory to dma(buf1), the data is a
+Now the content of BUF1 is 000000000022db56, the content of BUF2 is 0000000000000000, 
+and BUF1 to input, BUF2 to output, direction from memory to cpu
+
+When it's OK to input data from memory to dma(buf1), the data is 5
+Now the content of BUF1 is 00000000022db56a, the content of BUF2 is 0000000000000000, 
+and BUF1 to input, BUF2 to output, direction from memory to cpu
+
+When it's OK to input data from memory to dma(buf1), the data is b
+Now the content of BUF1 is 0000000022db56a5, the content of BUF2 is 0000000000000000, 
+and BUF1 to input, BUF2 to output, direction from memory to cpu
+
+When it's OK to input data from memory to dma(buf1), the data is 4
+Now the content of BUF1 is 000000022db56a5b, the content of BUF2 is 0000000000000000, 
+and BUF1 to input, BUF2 to output, direction from memory to cpu
+
+When it's OK to input data from memory to dma(buf1), the data is 6
+Now the content of BUF1 is 00000022db56a5b4, the content of BUF2 is 0000000000000000, 
+and BUF1 to input, BUF2 to output, direction from memory to cpu
+
+When it's OK to input data from memory to dma(buf1), the data is 1
+Now the content of BUF1 is 0000022db56a5b46, the content of BUF2 is 0000000000000000, 
+and BUF1 to input, BUF2 to output, direction from memory to cpu
+
+When it's OK to input data from memory to dma(buf1), the data is 8
+Now the content of BUF1 is 000022db56a5b461, the content of BUF2 is 0000000000000000, 
+and BUF1 to input, BUF2 to output, direction from memory to cpu
+
+run 1 us
+When it's OK to input data from memory to dma(buf1), the data is 4
+Now the content of BUF1 is 00022db56a5b4618, the content of BUF2 is 0000000000000000, 
+and BUF1 to input, BUF2 to output, direction from memory to cpu
+
+When it's OK to input data from memory to dma(buf1), the data is 9
+Now the content of BUF1 is 0022db56a5b46184, the content of BUF2 is 0000000000000000, 
+and BUF1 to input, BUF2 to output, direction from memory to cpu
+
+When it's OK to input data from memory to dma(buf1), the data is 9
+Now the content of BUF1 is 022db56a5b461849, the content of BUF2 is 0000000000000000, 
+and BUF1 to input, BUF2 to output, direction from memory to cpu
+
+When it's OK to output data from dma(buf1) to cpu, the data is 22
+Now the content of BUF1 is 22db56a5b4618499, the content of BUF2 is 0000000000000000, 
+and BUF2 to input, BUF1 to output, direction from memory to cpu
+
+When it's OK to output data from dma(buf1) to cpu, the data is db
+Now the content of BUF1 is db56a5b461849900, the content of BUF2 is 0000000000000000, 
+and BUF2 to input, BUF1 to output, direction from memory to cpu
+
+When it's OK to input data from memory to dma(buf2), the data is e
+Now the content of BUF1 is 56a5b46184990000, the content of BUF2 is 0000000000000000, 
+and BUF2 to input, BUF1 to output, direction from memory to cpu
+
+When it's OK to output data from dma(buf1) to cpu, the data is 56
+Now the content of BUF1 is 56a5b46184990000, the content of BUF2 is 0000000000000000, 
+and BUF2 to input, BUF1 to output, direction from memory to cpu
+
+When it's OK to input data from memory to dma(buf2), the data is d
+Now the content of BUF1 is a5b4618499000000, the content of BUF2 is 000000000000000e, 
+and BUF2 to input, BUF1 to output, direction from memory to cpu
+
+When it's OK to output data from dma(buf1) to cpu, the data is a5
+Now the content of BUF1 is a5b4618499000000, the content of BUF2 is 000000000000000e, 
+and BUF2 to input, BUF1 to output, direction from memory to cpu
+
+When it's OK to output data from dma(buf1) to cpu, the data is b4
+Now the content of BUF1 is b461849900000000, the content of BUF2 is 00000000000000ed, 
+and BUF2 to input, BUF1 to output, direction from memory to cpu
+
+When it's OK to output data from dma(buf1) to cpu, the data is 61
+Now the content of BUF1 is 6184990000000000, the content of BUF2 is 00000000000000ed, 
+and BUF2 to input, BUF1 to output, direction from memory to cpu
+
+When it's OK to output data from dma(buf1) to cpu, the data is 84
+Now the content of BUF1 is 8499000000000000, the content of BUF2 is 00000000000000ed, 
+and BUF2 to input, BUF1 to output, direction from memory to cpu
+
+When it's OK to output data from dma(buf1) to cpu, the data is 99
+Now the content of BUF1 is 9900000000000000, the content of BUF2 is 00000000000000ed, 
+and BUF2 to input, BUF1 to output, direction from memory to cpu
+
+When it's OK to input data from memory to dma(buf2), the data is b
+Now the content of BUF1 is 0000000000000000, the content of BUF2 is 00000000000000ed, 
+and BUF2 to input, BUF1 to output, direction from memory to cpu
+
+When it's OK to input data from memory to dma(buf2), the data is 5
+Now the content of BUF1 is 0000000000000000, the content of BUF2 is 0000000000000edb, 
+and BUF2 to input, BUF1 to output, direction from memory to cpu
+
+When it's OK to input data from memory to dma(buf2), the data is 3
+Now the content of BUF1 is 0000000000000000, the content of BUF2 is 000000000000edb5, 
+and BUF2 to input, BUF1 to output, direction from memory to cpu
+
+When it's OK to input data from memory to dma(buf2), the data is a
+Now the content of BUF1 is 0000000000000000, the content of BUF2 is 00000000000edb53, 
+and BUF2 to input, BUF1 to output, direction from memory to cpu
+
+When it's OK to input data from memory to dma(buf2), the data is b
+Now the content of BUF1 is 0000000000000000, the content of BUF2 is 0000000000edb53a, 
+and BUF2 to input, BUF1 to output, direction from memory to cpu
+
+When it's OK to input data from memory to dma(buf2), the data is e
+Now the content of BUF1 is 0000000000000000, the content of BUF2 is 000000000edb53ab, 
+and BUF2 to input, BUF1 to output, direction from memory to cpu
+
+When it's OK to input data from memory to dma(buf2), the data is a
+Now the content of BUF1 is 0000000000000000, the content of BUF2 is 00000000edb53abe, 
+and BUF2 to input, BUF1 to output, direction from memory to cpu
+
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Dec 20 10:41:09 2018...

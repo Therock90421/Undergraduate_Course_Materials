@@ -1,0 +1,306 @@
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+When it's OK to input data from cpu to dma(buf1), the data is e8
+Now the content of BUF1 is 0000000000000000, the content of BUF2 is 0000000000000000, 
+and BUF1 to input, BUF2 to output, direction from cpu to memory
+
+When it's OK to input data from cpu to dma(buf1), the data is 63
+Now the content of BUF1 is 00000000000000e8, the content of BUF2 is 0000000000000000, 
+and BUF1 to input, BUF2 to output, direction from cpu to memory
+
+When it's OK to input data from cpu to dma(buf1), the data is 02
+Now the content of BUF1 is 000000000000e863, the content of BUF2 is 0000000000000000, 
+and BUF1 to input, BUF2 to output, direction from cpu to memory
+
+When it's OK to input data from cpu to dma(buf1), the data is ca
+Now the content of BUF1 is 0000000000e86302, the content of BUF2 is 0000000000000000, 
+and BUF1 to input, BUF2 to output, direction from cpu to memory
+
+When it's OK to input data from cpu to dma(buf1), the data is 3b
+Now the content of BUF1 is 00000000e86302ca, the content of BUF2 is 0000000000000000, 
+and BUF1 to input, BUF2 to output, direction from cpu to memory
+
+When it's OK to input data from cpu to dma(buf1), the data is 62
+Now the content of BUF1 is 000000e86302ca3b, the content of BUF2 is 0000000000000000, 
+and BUF1 to input, BUF2 to output, direction from cpu to memory
+
+When it's OK to input data from cpu to dma(buf1), the data is 9f
+Now the content of BUF1 is 0000e86302ca3b62, the content of BUF2 is 0000000000000000, 
+and BUF1 to input, BUF2 to output, direction from cpu to memory
+
+When it's OK to input data from cpu to dma(buf1), the data is d7
+Now the content of BUF1 is 00e86302ca3b629f, the content of BUF2 is 0000000000000000, 
+and BUF1 to input, BUF2 to output, direction from cpu to memory
+
+When it's OK to output data from dma(buf1) to memory, the data is e8
+Now the content of BUF1 is e86302ca3b629fd7, the content of BUF2 is 0000000000000000, 
+and BUF2 to input, BUF1 to output, direction from cpu to memory
+
+When it's OK to input data from cpu to dma(buf2), the data is 5f
+Now the content of BUF1 is 86302ca3b629fd70, the content of BUF2 is 0000000000000000, 
+and BUF2 to input, BUF1 to output, direction from cpu to memory
+
+When it's OK to output data from dma(buf1) to memory, the data is 86
+Now the content of BUF1 is 86302ca3b629fd70, the content of BUF2 is 0000000000000000, 
+and BUF2 to input, BUF1 to output, direction from cpu to memory
+
+When it's OK to input data from cpu to dma(buf2), the data is 29
+Now the content of BUF1 is 6302ca3b629fd700, the content of BUF2 is 000000000000005f, 
+and BUF2 to input, BUF1 to output, direction from cpu to memory
+
+When it's OK to output data from dma(buf1) to memory, the data is 63
+Now the content of BUF1 is 6302ca3b629fd700, the content of BUF2 is 000000000000005f, 
+and BUF2 to input, BUF1 to output, direction from cpu to memory
+
+When it's OK to input data from cpu to dma(buf2), the data is 79
+Now the content of BUF1 is 302ca3b629fd7000, the content of BUF2 is 0000000000005f29, 
+and BUF2 to input, BUF1 to output, direction from cpu to memory
+
+When it's OK to input data from cpu to dma(buf2), the data is 67
+Now the content of BUF1 is 302ca3b629fd7000, the content of BUF2 is 00000000005f2979, 
+and BUF2 to input, BUF1 to output, direction from cpu to memory
+
+When it's OK to output data from dma(buf1) to memory, the data is 30
+Now the content of BUF1 is 302ca3b629fd7000, the content of BUF2 is 00000000005f2979, 
+and BUF2 to input, BUF1 to output, direction from cpu to memory
+
+When it's OK to input data from cpu to dma(buf2), the data is d9
+Now the content of BUF1 is 02ca3b629fd70000, the content of BUF2 is 000000005f297967, 
+and BUF2 to input, BUF1 to output, direction from cpu to memory
+
+When it's OK to input data from cpu to dma(buf2), the data is 28
+Now the content of BUF1 is 02ca3b629fd70000, the content of BUF2 is 0000005f297967d9, 
+and BUF2 to input, BUF1 to output, direction from cpu to memory
+
+When it's OK to output data from dma(buf1) to memory, the data is 02
+Now the content of BUF1 is 02ca3b629fd70000, the content of BUF2 is 0000005f297967d9, 
+and BUF2 to input, BUF1 to output, direction from cpu to memory
+
+When it's OK to output data from dma(buf1) to memory, the data is 2c
+Now the content of BUF1 is 2ca3b629fd700000, the content of BUF2 is 00005f297967d928, 
+and BUF2 to input, BUF1 to output, direction from cpu to memory
+
+When it's OK to output data from dma(buf1) to memory, the data is ca
+Now the content of BUF1 is ca3b629fd7000000, the content of BUF2 is 00005f297967d928, 
+and BUF2 to input, BUF1 to output, direction from cpu to memory
+
+When it's OK to input data from cpu to dma(buf2), the data is 26
+Now the content of BUF1 is a3b629fd70000000, the content of BUF2 is 00005f297967d928, 
+and BUF2 to input, BUF1 to output, direction from cpu to memory
+
+When it's OK to output data from dma(buf1) to memory, the data is a3
+Now the content of BUF1 is a3b629fd70000000, the content of BUF2 is 00005f297967d928, 
+and BUF2 to input, BUF1 to output, direction from cpu to memory
+
+When it's OK to output data from dma(buf1) to memory, the data is 3b
+Now the content of BUF1 is 3b629fd700000000, the content of BUF2 is 005f297967d92826, 
+and BUF2 to input, BUF1 to output, direction from cpu to memory
+
+When it's OK to input data from cpu to dma(buf2), the data is 17
+Now the content of BUF1 is b629fd7000000000, the content of BUF2 is 005f297967d92826, 
+and BUF2 to input, BUF1 to output, direction from cpu to memory
+
+When it's OK to output data from dma(buf1) to memory, the data is b6
+Now the content of BUF1 is b629fd7000000000, the content of BUF2 is 005f297967d92826, 
+and BUF2 to input, BUF1 to output, direction from cpu to memory
+
+When it's OK to output data from dma(buf1) to memory, the data is 62
+Now the content of BUF1 is 629fd70000000000, the content of BUF2 is 5f297967d9282617, 
+and BUF2 to input, BUF1 to output, direction from cpu to memory
+
+When it's OK to output data from dma(buf1) to memory, the data is 29
+Now the content of BUF1 is 29fd700000000000, the content of BUF2 is 5f297967d9282617, 
+and BUF2 to input, BUF1 to output, direction from cpu to memory
+
+When it's OK to output data from dma(buf1) to memory, the data is 9f
+Now the content of BUF1 is 9fd7000000000000, the content of BUF2 is 5f297967d9282617, 
+and BUF2 to input, BUF1 to output, direction from cpu to memory
+
+When it's OK to output data from dma(buf1) to memory, the data is fd
+Now the content of BUF1 is fd70000000000000, the content of BUF2 is 5f297967d9282617, 
+and BUF2 to input, BUF1 to output, direction from cpu to memory
+
+When it's OK to output data from dma(buf1) to memory, the data is d7
+Now the content of BUF1 is d700000000000000, the content of BUF2 is 5f297967d9282617, 
+and BUF2 to input, BUF1 to output, direction from cpu to memory
+
+When it's OK to output data from dma(buf1) to memory, the data is 70
+Now the content of BUF1 is 7000000000000000, the content of BUF2 is 5f297967d9282617, 
+and BUF2 to input, BUF1 to output, direction from cpu to memory
+
+When it's OK to input data from cpu to dma(buf1), the data is e2
+Now the content of BUF1 is 0000000000000000, the content of BUF2 is 5f297967d9282617, 
+and BUF1 to input, BUF2 to output, direction from cpu to memory
+
+When it's OK to output data from dma(buf2) to memory, the data is 5f
+Now the content of BUF1 is 00000000000000e2, the content of BUF2 is 5f297967d9282617, 
+and BUF1 to input, BUF2 to output, direction from cpu to memory
+
+When it's OK to input data from cpu to dma(buf1), the data is 27
+Now the content of BUF1 is 00000000000000e2, the content of BUF2 is f297967d92826170, 
+and BUF1 to input, BUF2 to output, direction from cpu to memory
+
+When it's OK to output data from dma(buf2) to memory, the data is f2
+Now the content of BUF1 is 00000000000000e2, the content of BUF2 is f297967d92826170, 
+and BUF1 to input, BUF2 to output, direction from cpu to memory
+
+When it's OK to output data from dma(buf2) to memory, the data is 29
+Now the content of BUF1 is 000000000000e227, the content of BUF2 is 297967d928261700, 
+and BUF1 to input, BUF2 to output, direction from cpu to memory
+
+When it's OK to input data from cpu to dma(buf1), the data is 2b
+Now the content of BUF1 is 000000000000e227, the content of BUF2 is 97967d9282617000, 
+and BUF1 to input, BUF2 to output, direction from cpu to memory
+
+When it's OK to input data from cpu to dma(buf1), the data is e8
+Now the content of BUF1 is 0000000000000000, the content of BUF2 is 0000000000000000, 
+and BUF1 to input, BUF2 to output, direction from cpu to memory
+
+When it's OK to input data from cpu to dma(buf1), the data is 63
+Now the content of BUF1 is 00000000000000e8, the content of BUF2 is 0000000000000000, 
+and BUF1 to input, BUF2 to output, direction from cpu to memory
+
+When it's OK to input data from cpu to dma(buf1), the data is 02
+Now the content of BUF1 is 000000000000e863, the content of BUF2 is 0000000000000000, 
+and BUF1 to input, BUF2 to output, direction from cpu to memory
+
+When it's OK to input data from cpu to dma(buf1), the data is ca
+Now the content of BUF1 is 0000000000e86302, the content of BUF2 is 0000000000000000, 
+and BUF1 to input, BUF2 to output, direction from cpu to memory
+
+When it's OK to input data from cpu to dma(buf1), the data is 3b
+Now the content of BUF1 is 00000000e86302ca, the content of BUF2 is 0000000000000000, 
+and BUF1 to input, BUF2 to output, direction from cpu to memory
+
+When it's OK to input data from cpu to dma(buf1), the data is 62
+Now the content of BUF1 is 000000e86302ca3b, the content of BUF2 is 0000000000000000, 
+and BUF1 to input, BUF2 to output, direction from cpu to memory
+
+When it's OK to input data from cpu to dma(buf1), the data is 9f
+Now the content of BUF1 is 0000e86302ca3b62, the content of BUF2 is 0000000000000000, 
+and BUF1 to input, BUF2 to output, direction from cpu to memory
+
+When it's OK to input data from cpu to dma(buf1), the data is d7
+Now the content of BUF1 is 00e86302ca3b629f, the content of BUF2 is 0000000000000000, 
+and BUF1 to input, BUF2 to output, direction from cpu to memory
+
+When it's OK to output data from dma(buf1) to memory, the data is e8
+Now the content of BUF1 is e86302ca3b629fd7, the content of BUF2 is 0000000000000000, 
+and BUF2 to input, BUF1 to output, direction from cpu to memory
+
+When it's OK to input data from cpu to dma(buf2), the data is 5f
+Now the content of BUF1 is 86302ca3b629fd70, the content of BUF2 is 0000000000000000, 
+and BUF2 to input, BUF1 to output, direction from cpu to memory
+
+When it's OK to output data from dma(buf1) to memory, the data is 86
+Now the content of BUF1 is 86302ca3b629fd70, the content of BUF2 is 0000000000000000, 
+and BUF2 to input, BUF1 to output, direction from cpu to memory
+
+When it's OK to input data from cpu to dma(buf2), the data is 29
+Now the content of BUF1 is 6302ca3b629fd700, the content of BUF2 is 000000000000005f, 
+and BUF2 to input, BUF1 to output, direction from cpu to memory
+
+When it's OK to output data from dma(buf1) to memory, the data is 63
+Now the content of BUF1 is 6302ca3b629fd700, the content of BUF2 is 000000000000005f, 
+and BUF2 to input, BUF1 to output, direction from cpu to memory
+
+When it's OK to input data from cpu to dma(buf2), the data is 79
+Now the content of BUF1 is 302ca3b629fd7000, the content of BUF2 is 0000000000005f29, 
+and BUF2 to input, BUF1 to output, direction from cpu to memory
+
+When it's OK to input data from cpu to dma(buf2), the data is 67
+Now the content of BUF1 is 302ca3b629fd7000, the content of BUF2 is 00000000005f2979, 
+and BUF2 to input, BUF1 to output, direction from cpu to memory
+
+When it's OK to output data from dma(buf1) to memory, the data is 30
+Now the content of BUF1 is 302ca3b629fd7000, the content of BUF2 is 00000000005f2979, 
+and BUF2 to input, BUF1 to output, direction from cpu to memory
+
+When it's OK to input data from cpu to dma(buf2), the data is d9
+Now the content of BUF1 is 02ca3b629fd70000, the content of BUF2 is 000000005f297967, 
+and BUF2 to input, BUF1 to output, direction from cpu to memory
+
+When it's OK to input data from cpu to dma(buf2), the data is 28
+Now the content of BUF1 is 02ca3b629fd70000, the content of BUF2 is 0000005f297967d9, 
+and BUF2 to input, BUF1 to output, direction from cpu to memory
+
+When it's OK to output data from dma(buf1) to memory, the data is 02
+Now the content of BUF1 is 02ca3b629fd70000, the content of BUF2 is 0000005f297967d9, 
+and BUF2 to input, BUF1 to output, direction from cpu to memory
+
+When it's OK to output data from dma(buf1) to memory, the data is 2c
+Now the content of BUF1 is 2ca3b629fd700000, the content of BUF2 is 00005f297967d928, 
+and BUF2 to input, BUF1 to output, direction from cpu to memory
+
+When it's OK to output data from dma(buf1) to memory, the data is ca
+Now the content of BUF1 is ca3b629fd7000000, the content of BUF2 is 00005f297967d928, 
+and BUF2 to input, BUF1 to output, direction from cpu to memory
+
+When it's OK to input data from cpu to dma(buf2), the data is 26
+Now the content of BUF1 is a3b629fd70000000, the content of BUF2 is 00005f297967d928, 
+and BUF2 to input, BUF1 to output, direction from cpu to memory
+
+When it's OK to output data from dma(buf1) to memory, the data is a3
+Now the content of BUF1 is a3b629fd70000000, the content of BUF2 is 00005f297967d928, 
+and BUF2 to input, BUF1 to output, direction from cpu to memory
+
+When it's OK to output data from dma(buf1) to memory, the data is 3b
+Now the content of BUF1 is 3b629fd700000000, the content of BUF2 is 005f297967d92826, 
+and BUF2 to input, BUF1 to output, direction from cpu to memory
+
+When it's OK to input data from cpu to dma(buf2), the data is 17
+Now the content of BUF1 is b629fd7000000000, the content of BUF2 is 005f297967d92826, 
+and BUF2 to input, BUF1 to output, direction from cpu to memory
+
+When it's OK to output data from dma(buf1) to memory, the data is b6
+Now the content of BUF1 is b629fd7000000000, the content of BUF2 is 005f297967d92826, 
+and BUF2 to input, BUF1 to output, direction from cpu to memory
+
+When it's OK to output data from dma(buf1) to memory, the data is 62
+Now the content of BUF1 is 629fd70000000000, the content of BUF2 is 5f297967d9282617, 
+and BUF2 to input, BUF1 to output, direction from cpu to memory
+
+When it's OK to output data from dma(buf1) to memory, the data is 29
+Now the content of BUF1 is 29fd700000000000, the content of BUF2 is 5f297967d9282617, 
+and BUF2 to input, BUF1 to output, direction from cpu to memory
+
+When it's OK to output data from dma(buf1) to memory, the data is 9f
+Now the content of BUF1 is 9fd7000000000000, the content of BUF2 is 5f297967d9282617, 
+and BUF2 to input, BUF1 to output, direction from cpu to memory
+
+When it's OK to output data from dma(buf1) to memory, the data is fd
+Now the content of BUF1 is fd70000000000000, the content of BUF2 is 5f297967d9282617, 
+and BUF2 to input, BUF1 to output, direction from cpu to memory
+
+When it's OK to output data from dma(buf1) to memory, the data is d7
+Now the content of BUF1 is d700000000000000, the content of BUF2 is 5f297967d9282617, 
+and BUF2 to input, BUF1 to output, direction from cpu to memory
+
+When it's OK to output data from dma(buf1) to memory, the data is 70
+Now the content of BUF1 is 7000000000000000, the content of BUF2 is 5f297967d9282617, 
+and BUF2 to input, BUF1 to output, direction from cpu to memory
+
+When it's OK to input data from cpu to dma(buf1), the data is e2
+Now the content of BUF1 is 0000000000000000, the content of BUF2 is 5f297967d9282617, 
+and BUF1 to input, BUF2 to output, direction from cpu to memory
+
+When it's OK to output data from dma(buf2) to memory, the data is 5f
+Now the content of BUF1 is 00000000000000e2, the content of BUF2 is 5f297967d9282617, 
+and BUF1 to input, BUF2 to output, direction from cpu to memory
+
+When it's OK to input data from cpu to dma(buf1), the data is 27
+Now the content of BUF1 is 00000000000000e2, the content of BUF2 is f297967d92826170, 
+and BUF1 to input, BUF2 to output, direction from cpu to memory
+
+When it's OK to output data from dma(buf2) to memory, the data is f2
+Now the content of BUF1 is 00000000000000e2, the content of BUF2 is f297967d92826170, 
+and BUF1 to input, BUF2 to output, direction from cpu to memory
+
+When it's OK to output data from dma(buf2) to memory, the data is 29
+Now the content of BUF1 is 000000000000e227, the content of BUF2 is 297967d928261700, 
+and BUF1 to input, BUF2 to output, direction from cpu to memory
+
+When it's OK to input data from cpu to dma(buf1), the data is 2b
+Now the content of BUF1 is 000000000000e227, the content of BUF2 is 97967d9282617000, 
+and BUF1 to input, BUF2 to output, direction from cpu to memory
+

@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado/homework/project_3/project_3.srcs/sources_1/new/state_machine.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module state_machine
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [E:/Vivado/homework/project_3/project_3.srcs/sources_1/new/state_machine.v:34]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado/homework/project_3/project_3.srcs/sim_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado/homework/project_3/project_3.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

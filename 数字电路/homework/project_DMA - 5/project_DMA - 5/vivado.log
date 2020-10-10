@@ -1,0 +1,59 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Thu Jan 03 13:19:33 2019
+# Process ID: 17004
+# Current directory: E:/国科大/数字电路/project_DMA - 5/project_DMA - 5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5676 E:\国科大\数字电路\project_DMA - 5\project_DMA - 5\project_DMA.xpr
+# Log file: E:/国科大/数字电路/project_DMA - 5/project_DMA - 5/vivado.log
+# Journal file: E:/国科大/数字电路/project_DMA - 5/project_DMA - 5\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:/国科大/数字电路/project_DMA - 5/project_DMA - 5/project_DMA.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/Administrator/vivado projects/project_DMA - 5' since last save.
+Scanning sources...
+Finished scanning sources
+CRITICAL WARNING: [Project 1-192] Failed to load run synth_1. Strategy Vivado Synthesis Defaults (Vivado Synthesis 2018) not recognized by Vivado. 
+
+CRITICAL WARNING: [Project 1-192] Failed to load run impl_1. Strategy Vivado Implementation Defaults (Vivado Implementation 2018) not recognized by Vivado. 
+
+CRITICAL WARNING: [Project 1-532] XML ERROR: Project Option CompiledLibDirXSim has no valid value
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name CompiledLibDirXcelium
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name ProjectType
+WARNING: [filemgmt 56-2] IP Output Repository Path: Could not find the directory 'E:/国科大/数字电路/project_DMA - 5/project_DMA - 5/project_DMA.cache/ip', nor could it be found using path 'C:/Users/Administrator/vivado projects/project_DMA - 5/project_DMA.cache/ip'.
+WARNING: [filemgmt 56-3] IPUserFilesDir: Could not find the directory '$PIPUSERFILESDIR'.
+WARNING: [filemgmt 56-3] IPStaticSourceDir: Could not find the directory '$PIPUSERFILESDIR/ipstatic'.
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name DSAVendor
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name DSANumComputeUnits
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name WTXSimLaunchSim
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name WTModelSimLaunchSim
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name WTQuestaLaunchSim
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name WTIesLaunchSim
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name WTVcsLaunchSim
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name WTRivieraLaunchSim
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name WTActivehdlLaunchSim
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name WTXSimExportSim
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name WTModelSimExportSim
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name WTQuestaExportSim
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name WTIesExportSim
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name WTVcsExportSim
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name WTRivieraExportSim
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name WTActivehdlExportSim
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name GenerateIPUpgradeLog
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name XSimRadix
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name XSimTimeUnit
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name XSimArrayDisplayLimit
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name XSimTraceLimit
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimTypes
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimTypes
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimTypes
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimTypes
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name MEMEnableMemoryMapGeneration
+WARNING: [Project 1-231] Project 'project_DMA.xpr' was created with a future version and may or may not perform reliably with this version of Vivado. It has been opened in read-only mode for the protection of unrecognized data. Use 'File | Save Project As...' if you wish to alter a copy of the project.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/国科大/数字电路/project_DMA - 5/project_DMA - 5/project_DMA.cache/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado/Vivado/2015.4/data/ip'.
+open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 767.848 ; gain = 129.629
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Jan 03 14:42:05 2019...

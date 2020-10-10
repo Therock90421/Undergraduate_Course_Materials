@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Dec 11 10:07:34 2018
+# Process ID: 10748
+# Current directory: C:/Users/Administrator/vivado projects/project_DMA - 2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13040 C:\Users\Administrator\vivado projects\project_DMA - 2\project_DMA.xpr
+# Log file: C:/Users/Administrator/vivado projects/project_DMA - 2/vivado.log
+# Journal file: C:/Users/Administrator/vivado projects/project_DMA - 2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Administrator/vivado projects/project_DMA - 2/project_DMA.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/Administrator/vivado projects/project_DMA - 1' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:07 . Memory (MB): peak = 859.574 ; gain = 128.238
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Dec 11 10:51:29 2018...

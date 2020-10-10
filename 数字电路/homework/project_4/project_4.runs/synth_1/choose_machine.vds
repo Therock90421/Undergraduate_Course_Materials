@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Thu Nov 15 11:28:56 2018
+# Process ID: 15388
+# Current directory: E:/Vivado/homework/project_4/project_4.runs/synth_1
+# Command line: vivado.exe -log choose_machine.vds -mode batch -messageDb vivado.pb -notrace -source choose_machine.tcl
+# Log file: E:/Vivado/homework/project_4/project_4.runs/synth_1/choose_machine.vds
+# Journal file: E:/Vivado/homework/project_4/project_4.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source choose_machine.tcl -notrace
+Command: synth_design -top choose_machine -part xc7a35tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+ERROR: [Synth 8-1031] clk is not declared [E:/Vivado/homework/project_4/project_4.srcs/sources_1/new/machine.v:29]
+INFO: [Synth 8-2350] module choose_machine ignored due to previous errors [E:/Vivado/homework/project_4/project_4.srcs/sources_1/new/machine.v:23]
+Failed to read verilog 'E:/Vivado/homework/project_4/project_4.srcs/sources_1/new/machine.v'
+INFO: [Common 17-83] Releasing license: Synthesis
+3 Infos, 0 Warnings, 0 Critical Warnings and 2 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Vivado Synthesis failed
+INFO: [Common 17-206] Exiting Vivado at Thu Nov 15 11:29:08 2018...

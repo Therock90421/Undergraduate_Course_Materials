@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado/homework/project_8/project_8.srcs/sources_1/new/FIFO.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FIFO
+WARNING: [VRFC 10-965] invalid size of integer constant literal [E:/Vivado/homework/project_8/project_8.srcs/sources_1/new/FIFO.v:72]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado/homework/project_8/project_8.srcs/sim_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado/homework/project_8/project_8.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
