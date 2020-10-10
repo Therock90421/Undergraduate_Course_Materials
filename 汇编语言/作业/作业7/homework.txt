@@ -1,0 +1,27 @@
+1. 用扩展型嵌入式x86汇编完成下列程序：
+
+    unsigned int shld5(unsigned int a, unsigned int b)
+
+    {    
+
+              unsigned int result;    
+
+              result = (a << 5) |( b>>(32-5)); //此语句用嵌入式汇编编写    
+
+             return result；
+
+    }
+
+2. 用mips汇编完成下面的程序，将iostring中的小写字母转换为大写字母，然后输出转换后的iostring
+
+    .section .data
+
+              iostring:   .asciz “ab1g2hA0H56po9wK78nB”
+
+    .section .text
+
+     .globl __start
+
+__start:  
+
+     ……（请补充完整）

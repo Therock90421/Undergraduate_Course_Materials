@@ -1,0 +1,41 @@
+Inthandler: 
+         pushw   %ax
+         push    %ebx
+         push    %ecx
+         push    %edx
+         
+        mov     (%si),%ebx
+        mov     %ebx, %ecx
+        mov     $0,%edx
+      L1:
+        movb    (%ecx),%al
+        test    %al, %al
+        je      L4
+        cmp     $'0',  %al
+        jb      L3
+        cmp     $'9',  %al
+        ja      L3
+      L2:
+        
+        
+        
+        inc     %ecx
+        
+        jmp     L1
+      L3:
+        mov     %al,(%ebx)
+        
+        inc     %ebx
+        inc     %ecx
+        inc     %edx
+        jmp     L1
+      L4:
+        movb    $10,(%ebx)
+        inc     %edx
+        
+        pop     %edx
+        pop     %ecx
+        pop     %ebx
+        pop     %ax
+        iret
+

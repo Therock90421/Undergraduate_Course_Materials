@@ -1,0 +1,62 @@
+采用插入排序法对下列数字序列进行升序排序
+
+.section .data
+
+ testdata:
+
+   .int 6, -5, 3, 1, -8, 7, 0, 2, 4, 9
+
+.section .text
+
+.globl _start
+
+_start:
+
+ ……
+
+   call insert_sort
+
+#output
+
+  ……
+
+call as_puts
+
+#exit
+
+call as_exit
+
+ 
+
+void insert_sort(int a[], int n)
+
+{
+
+    int i;
+
+    int j, tmp;
+
+    for(i = 1; i<n; i++)
+
+    {
+
+       tmp = a[i];
+
+       j = i - 1;
+
+       while(j >=0 && a[j] >tmp)
+
+       {
+
+          a[j+1] = a[j];
+
+          j--;
+
+       }
+
+       a[j+1]=tmp;
+
+    }
+
+}
+

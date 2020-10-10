@@ -1,0 +1,20 @@
+请补充完整下面的程序，输出字符串“1032547698badcfe”。
+
+ 
+.section .data
+stringvar:
+ .ascii    “0123456789abcdef”
+.section .text
+.globl _start
+_start:
+ ……（请补充完整）
+#output
+         movl          $4, %eax
+         movl          $1, %ebx
+         movl          $stringvar, %ecx
+         movl          $16, %edx
+         int    $0x80
+#exit
+         movl          $1, %eax
+         movl          $0, %ebx
+         int    $0x80

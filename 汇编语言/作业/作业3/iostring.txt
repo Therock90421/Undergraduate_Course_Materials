@@ -1,0 +1,39 @@
+补充完整下面的程序，将iostring中的小写字母转换为大写字母，然后输出转换后的iostring。32位或64位程序均可。
+
+ 
+
+.section .data
+
+iostring:
+
+ .asciz “ab1g2hA0H56po9wK78nB”
+
+.section .text
+
+.globl _start
+
+_start:
+
+ ……（请补充完整）
+
+#output
+
+         movl          $4, %eax
+
+         movl          $1, %ebx
+
+         movl          $iostring, %ecx
+
+……
+
+         int    $0x80
+
+#exit
+
+         movl          $1, %eax
+
+         movl          $0, %ebx
+
+         int    $0x80
+
+ 
