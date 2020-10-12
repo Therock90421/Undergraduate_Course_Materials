@@ -1,0 +1,30 @@
+﻿ 作业指导
+一、描述
+
+以下代码为Linux/Unix创建进程的例子，其中
+*  fork克隆出一个进程
+*  exec覆盖掉当前进程
+ 
+
+If ((pid = fork()) == 0)
+ {
+         
+/* child process */
+
+         exec(“foo”);    /* does not return */
+
+else
+         /* parent */
+ 
+        wait(pid);        /* wait for child to die */
+
+
+
+
+二、作业要求
+
+请大家阅读xv6源码，撰写一份分析报告。报告需要给出以下信息：
+
+1. 在xv6中，PCB信息是如何表示的？是用什么数据结构？存放在哪个文件中？
+
+2. 上述代码中，修改了哪些PCB中的信息？

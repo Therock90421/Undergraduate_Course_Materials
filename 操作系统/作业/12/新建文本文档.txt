@@ -1,0 +1,52 @@
+五、代码
+#include <fcntl.h>
+#include <signal.h>
+#include <stdio.h>
+#include <string.h>
+#include <sys/mman.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <unistd.h>
+
+static int alloc_size;
+static int* memory;
+int time= 1;
+
+void segv_handler (int signal_number)
+{
+printf("memory accessed!\n");
+printf("	This time addr 0x%x is accessed \n",memory+1024*(time-1));
+mprotect(memory, getpagesize()*time, PROT_READ | PROT_WRITE);
+time++;
+}
+
+int main ()
+{
+  int fd,i;
+  struct sigaction sa;
+
+  /* 初始化segv_handler为SIGSEGV的句柄。*/
+  memset(&sa,0,sizeof(sa));
+  sa.sa_handler = &segv_handler;
+  sigaction(SIGSEGV, &sa, NULL);
+
+  /* 使用映射/dev/zero分配内存页。最初映射的内存为只写。*/
+  alloc_size = 64*getpagesize();//256KB
+  fd = open("/dev/zero", O_RDONLY);
+  memory = mmap(NULL, alloc_size, PROT_WRITE, MAP_PRIVATE, fd, 0);
+  close(fd);
+  /* 写页来获得一个私有复制。 */
+  memory[0] = 0;
+  /* 使内存为read-only。 */
+  mprotect(memory, alloc_size, PROT_READ);
+
+  /* 写分配内存区域。 */
+  //memory[0] = 1;
+  for(i=0;i<64;i++)
+    memory[1024*i] = i;
+  /* 所有工作都结束；unmap内存映射。 */
+  printf("all done\n");
+  munmap(memory, alloc_size);
+
+  return 0;
+}

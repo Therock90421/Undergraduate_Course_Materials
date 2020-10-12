@@ -1,0 +1,5 @@
+ 作业指导
+ 
+请研究一下linux gettimeofday() 系统调用的用法，并测量一下gettimeofday的执行时间。
+
+提交方法： 程序、执行结果、系统环境（uname -a) ，本人学号。

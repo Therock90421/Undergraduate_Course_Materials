@@ -1,0 +1,5 @@
+ 作业指导
+
+请在一个posix兼容的环境（unix，linux，windows cmd、mac等）编译执行附件小程序，并试着分析每个变量所属的段（section），可以用objdump 等进行验证。
+
+
